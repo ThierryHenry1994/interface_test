@@ -4,6 +4,7 @@ import json
 import requests
 import xlrd
 import write_result
+import fire
 
 
 def get_token(url, login_data):
@@ -66,14 +67,14 @@ def judge_result(raw, expect):
         return "failed"
 
 
-if __name__ == '__main__':
-
+def test():
     login_url = "http://192.168.1.106/qxgl-center/Mh001LoginCtrl/handleLogins"
     loin_data = "{\"userName\":\"Z3VvanVu\",\"userPwd\":\"Y3NzMTIzNDU=\"}"
     test_token = get_token(login_url, loin_data)
-    print(test_token)
     excel = './data/test.xlsx'
     param = get_data_from_excel(excel)
     interface_test(param, test_token)
 
 
+if __name__ == '__main__':
+    fire.Fire(test)
