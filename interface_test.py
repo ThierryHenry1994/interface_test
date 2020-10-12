@@ -66,6 +66,7 @@ def judge_result(raw, expect):
 def get_test_case(case):
     case_list = []
     for i in case:
+        print i
         _case = i.split("-")[1]
         case_list.append(_case)
     return case_list
