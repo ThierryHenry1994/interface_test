@@ -52,15 +52,11 @@ def interface_test(param_list, token):
         else:
             info = ""
         result_list.append((url, param_list[i][3], result, info))
-    print result_list
-    write_result.write_whole_html_file(u"三会一课", result_list)
+    write_result.write_whole_html_file(u"冒烟测试", result_list)
     return result_list
 
 
-
 def judge_result(raw, expect):
-    print(expect)
-    print(str(raw))
     if str(raw).find(expect) != -1:
         return "success"
     else:
