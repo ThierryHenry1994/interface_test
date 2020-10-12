@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14042cf0-83b4-4a9d-9856-e7d34012278d" name="Default Changelist" comment="适配CI提交 入口更新为fire">
+    <list default="true" id="14042cf0-83b4-4a9d-9856-e7d34012278d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test.py" afterDir="false" />
     </list>
@@ -100,18 +100,26 @@
       <option name="project" value="LOCAL" />
       <updated>1602483529510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="适配CI提交 CI打印日志报错">
+      <created>1602486243234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602486243234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="适配CI提交 入口更新为fire" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配CI提交 入口更新为fire" />
+    <MESSAGE value="适配CI提交 CI打印日志报错" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配CI提交 CI打印日志报错" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1602486209682">
+    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1602486241196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602486209682" />
+    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602486241196" />
     <state width="1341" height="196" key="GridCell.Tab.0.bottom" timestamp="1602469979313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

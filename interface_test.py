@@ -52,7 +52,7 @@ def interface_test(param_list, token):
         else:
             info = ""
         result_list.append((url, param_list[i][3], result, info))
-    write_result.write_whole_html_file(u"冒烟测试", result_list)
+
     return result_list
 
 
@@ -63,13 +63,28 @@ def judge_result(raw, expect):
         return "failed"
 
 
-def test():
+def get_test_case(case):
+    case_list = []
+    for i in case:
+        _case = i.split("-")[1]
+        case_list.append(_case)
+    return case_list
+
+
+def test(test_case):
+    result_list = []
     login_url = "http://192.168.1.106/qxgl-center/Mh001LoginCtrl/handleLogins"
     loin_data = "{\"userName\":\"Z3VvanVu\",\"userPwd\":\"Y3NzMTIzNDU=\"}"
     test_token = get_token(login_url, loin_data)
-    excel = './data/test.xlsx'
-    param = get_data_from_excel(excel)
-    interface_test(param, test_token)
+    test_file_list = get_test_case(test_case)
+    # excel = './data/test.xlsx'
+    for test_file in test_file_list:
+        folder = './'+test_file+"/test.xlsx"
+        param = get_data_from_excel(folder)
+        _result = interface_test(param, test_token)
+        result_list.append(_result)
+
+    write_result.write_whole_html_file(u"冒烟测试", result_list)
 
 
 if __name__ == '__main__':
