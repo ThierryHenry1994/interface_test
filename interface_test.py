@@ -65,8 +65,8 @@ def judge_result(raw, expect):
 
 def get_test_case(case):
     case_list = []
-    for i in case:
-        print i
+    case1 = case.split(",")
+    for i in case1:
         _case = i.split("-")[1]
         case_list.append(_case)
     return case_list
@@ -84,9 +84,9 @@ def test(test_case):
         param = get_data_from_excel(folder)
         _result = interface_test(param, test_token)
         result_list.append(_result)
-
+    print "======", result_list
     write_result.write_whole_html_file(u"冒烟测试", result_list)
 
 
 if __name__ == '__main__':
-    fire.Fire(test)
+    test("三会一课-shyk,工作任务-gzrw")

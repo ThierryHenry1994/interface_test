@@ -84,9 +84,11 @@ def write_whole_html_file(Testcase, result_list):
     html_file = PyH('TEST interface report')
     html_table = html_file << table(border="2", cellpadding="2", cellspacing="0")
     write_title(Testcase, html_file, html_table)
+    write_table_title(html_table)
     for result in result_list:
-        write_table_title(html_table)
-        write_html(result[0], result[1], result[2], result[3], html_table)
+
+        for i in result:
+            write_html(i[0], i[1], i[2], i[3], html_table)
     # 判断是否存在存放html的文件夹
     # judge_file_path_exist("html_file")
     nowtime = arrow.utcnow().timestamp

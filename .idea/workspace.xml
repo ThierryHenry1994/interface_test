@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="14042cf0-83b4-4a9d-9856-e7d34012278d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/write_result.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.zendao_test">
+  <component name="RunManager" selected="Python.interface_test (1)">
+    <configuration name="interface_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zendao_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="interface_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zendao_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.interface_test (1)" />
         <item itemvalue="Python.zendao_test" />
         <item itemvalue="Python.interface_test" />
       </list>
@@ -107,42 +131,50 @@
       <option name="project" value="LOCAL" />
       <updated>1602486243234</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="适配CI参数化构建">
+      <created>1602490343675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602490343675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="适配CI提交 入口更新为fire" />
     <MESSAGE value="适配CI提交 CI打印日志报错" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配CI提交 CI打印日志报错" />
+    <MESSAGE value="适配CI参数化构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配CI参数化构建" />
   </component>
   <component name="WindowStateProjectService">
     <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1602490341679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="342" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602490341679" />
-    <state width="1341" height="196" key="GridCell.Tab.0.bottom" timestamp="1602469979313">
+    <state width="1341" height="306" key="GridCell.Tab.0.bottom" timestamp="1602552034541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602469979313" />
-    <state width="1341" height="196" key="GridCell.Tab.0.center" timestamp="1602469979313">
+    <state width="1341" height="306" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602552034541" />
+    <state width="1341" height="306" key="GridCell.Tab.0.center" timestamp="1602552034541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602469979313" />
-    <state width="1341" height="196" key="GridCell.Tab.0.left" timestamp="1602469979313">
+    <state width="1341" height="306" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602552034541" />
+    <state width="1341" height="306" key="GridCell.Tab.0.left" timestamp="1602552034540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602469979313" />
-    <state width="1341" height="196" key="GridCell.Tab.0.right" timestamp="1602469979313">
+    <state width="1341" height="306" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602552034540" />
+    <state width="1341" height="306" key="GridCell.Tab.0.right" timestamp="1602552034541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602469979313" />
+    <state width="1341" height="306" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602552034541" />
     <state x="83" y="0" key="SettingsEditor" timestamp="1602319624551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="83" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602319624551" />
-    <state x="315" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1602464029024">
+    <state x="315" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1602550368283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="315" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602464029024" />
+    <state x="315" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602550368283" />
   </component>
 </project>
