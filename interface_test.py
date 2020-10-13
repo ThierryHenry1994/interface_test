@@ -89,4 +89,4 @@ def test(test_case):
 
 
 if __name__ == '__main__':
-    test("三会一课-shyk,工作任务-gzrw")
+    fire.Fire(test)
