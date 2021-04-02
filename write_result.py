@@ -6,7 +6,7 @@ import shutil
 from pyh2 import*
 reload(sys)
 sys.setdefaultencoding("utf-8")
-# 灰色背景色调
+# 灰色背景的色调
 gray_background_color = "#AAAAAA"
 # 白色背景色调
 white_background_color = "#F7F7F7"
